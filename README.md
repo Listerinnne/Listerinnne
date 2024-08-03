@@ -31,7 +31,7 @@
 - [타임라인](#타임라인)
   - [Github으로 협업 방법](#Github으로-협업-방법)
 
-
+![UML다이어그램 기호](https://github.com/user-attachments/assets/b3f6a62e-0d06-48bc-b9f0-0f8eb5e78bf6)
 # UML 클래스 다이어그램 개요
 
 이 문서는 `com.ssafy.fit` 애플리케이션의 UML 클래스 다이어그램에 대한 개요를 제공합니다. 다이어그램에는 다양한 클래스, 그들의 속성, 메서드 및 클래스 간의 관계가 포함되어 있습니다.
