@@ -279,6 +279,7 @@ Maven을 사용하여 GSON을 프로젝트에 포함시키기 위해 `pom.xml` �
     - 접근제어자 표기방법 서치
     - UML 클래스 다이어그램 관계(화살표 등) 수정
 ![UML다이어그램 기호](https://github.com/user-attachments/assets/b3f6a62e-0d06-48bc-b9f0-0f8eb5e78bf6)
+
     
 # 2. 개요 작성 완료 후 클래스 다이어그램 제작
 ## 패키지 구성
