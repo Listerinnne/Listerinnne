@@ -30,8 +30,26 @@
     - [결론](#결론)
 - [타임라인](#타임라인)
   - [Github으로 협업 방법](#Github으로-협업-방법)
+  - [1. README.md파일에 다이어그램 개요 작성](#1-readmemd파일에-다이어그램-개요-작성)
+  - [2. 개요 작성 완료 후 클래스 다이어그램 제작](#2-개요-작성-완료-후-클래스-다이어그램-제작)
+    - [패키지 구성](#패키지-구성)
+      - [초기 제작 다이어그램 (In-Chat UML Diagram Visualizer & ‣ 활용)](#초기-제작-다이어그램-in-chat-uml-diagram-visualizer---활용)
+      - [Chat GPT가 작성한 다이어그램에서 원본 다이어그램에서 빠진 요소를 추가하여 수정함](#chat-gpt가-작성한-다이어그램에서-원본-다이어그램에서-빠진-요소를-추가하여-수정함)
+      - [최종 제작 다이어그램 (In-Chat UML Diagram Visualizer & ‣ 활용)](#최종-제작-다이어그램-in-chat-uml-diagram-visualizer---활용)
+  - [3. 챗gtp에게 최종명세서와 readme.md 파일을 제공하여 개선 사항 요청](#3-챗gtp에게-최종명세서와-readmemd-파일을-제공하여-개선-사항-요청)
+    - [프롬프트 엔지니어링(영어로 진행)](#프롬프트-엔지니어링영어로-진행)
+    - [챗GPT 답변](#챗gpt-답변)
+  - [4. 명세서와 uml 다이어그램을 바탕으로 구현](#4-명세서와-uml-다이어그램을-바탕으로-구현)
+  - [5. gson 2-8-8.jar 로컬 연결이 아닌 maven project으로 구현](#5-gson-288jar-로컬-연결이-아닌-maven-project으로-구현)
+    - [문제 해결 및 Maven 프로젝트 설정 가이드](#문제-해결-및-maven-프로젝트-설정-가이드)
+    - [Maven 프로젝트로 변환](#maven-프로젝트로-변환)
+    - [Maven 의존성 추가](#maven-의존성-추가)
+    - [Maven 프로젝트 업데이트](#maven-프로젝트-업데이트)
+    - [Imports 정리](#imports-정리)
+  - [6. 최종 명세서와 프로젝트 구현 결과 비교해서 수정보완 하기](#6-최종-명세서와-프로젝트-구현-결과-비교해서-수정보완-하기)
+  
 
-![UML다이어그램 기호](https://github.com/user-attachments/assets/b3f6a62e-0d06-48bc-b9f0-0f8eb5e78bf6)
+
 # UML 클래스 다이어그램 개요
 
 이 문서는 `com.ssafy.fit` 애플리케이션의 UML 클래스 다이어그램에 대한 개요를 제공합니다. 다이어그램에는 다양한 클래스, 그들의 속성, 메서드 및 클래스 간의 관계가 포함되어 있습니다.
@@ -240,3 +258,122 @@ Maven을 사용하여 GSON을 프로젝트에 포함시키기 위해 `pom.xml` �
 ## 결론
 이 UML 클래스 다이어그램은 `com.ssafy.fit` 애플리케이션의 구조와 클래스 간의 관계를 나타냅니다. 클래스는 패키지별로 잘 정리되어 있으며, 클래스 간의 관계가 명확하게 정의되어 있어 견고하고 유지 보수 가능한 아키텍처를 제공합니다. 제안된 개선 사항들을 적용하면 프로그램이 더 견고하고 유지 보수하기 쉬워지며, 다른 개발자들이 더 쉽게 이해하고 작업할 수 있을 것입니다.
 
+# 0. Github으로 협업 방법 
+- **로컬로 가져오기** 
+  1. main 브랜치로 이동
+  2. fetch origin으로 pull 받아오기
+- **push하기**
+  1. main 브랜치에서 pull 받아오기
+  2. 내 브랜치로 이동
+  3. commit - push 
+  4. 모든 수정이 끝난 후 PR보내기(**보내기 전에 꼭 말하기!**)
+  5. Kevin이 merge 해주기
+
+# 1. README.md파일에 다이어그램 개요 작성
+- chatGPT 에게 다이어그램 이미지 제시 후 개요 작성 요청
+- 결과물 검토
+    - 접근제어자 추가
+    - 접근제어자 표기방법 서치
+    - UML 클래스 다이어그램 관계(화살표 등) 수정
+    ![UML다이어그램 기호](https://github.com/user-attachments/assets/b3f6a62e-0d06-48bc-b9f0-0f8eb5e78bf6)
+    
+# 2. 개요 작성 완료 후 클래스 다이어그램 제작
+## 패키지 구성
+```
+com/
+└── ssafy/
+    ├── fit/
+    │   ├── model/
+    │   │   ├── dao/
+    │   │   │   ├── VideoDao.java            // young
+    │   │   │   ├── VideoDaoImpl.java        // young 
+    │   │   │   ├── VideoReviewDao.java      // kevin
+    │   │   │   └── VideoReviewDaoImpl.java  // kevin
+    │   │   ├── Video.java                   // young
+    │   │   └── VideoReview.java             // kevin
+    │   ├── ui/                              
+    │   │   ├── MainUi.java                  // Listerinnne
+    │   │   ├── VideoUi.java                 // young
+    │   │   └── VideoReviewUi.java           // kevin
+    │   ├── test/                            
+    │   │   └── SsafitApplication.java       // Listerinnne
+    │   └── util/                            
+    │       └── SsafitUtil.java              // Listerinnne
+```
+### 초기 제작 다이어그램 (In-Chat UML Diagram Visualizer & ‣ 활용)
+![초기 제작 다이어그램](https://github.com/user-attachments/assets/504744e6-fa39-4e2e-9eeb-b02940de2b88)
+
+### Chat GPT가 작성한 다이어그램에서 원본 다이어그램에서 빠진 요소를 추가하여 수정함  
+- ChatGPT 생성 UML  Diagram 수정사항
+  - Util
+    - printLine(ch: Char, len: int): void
+  - VideoUi
+      - listVideo(): void
+  - Video Dao
+      - 2개다 세모
+      ![수정된 다이어그램](https://github.com/user-attachments/assets/36cb57ae-4bc5-4250-a92c-2a36b257e2d1)
+### 최종 제작 다이어그램 (In-Chat UML Diagram Visualizer & ‣ 활용)
+![최종 명세서](https://github.com/user-attachments/assets/c8064316-ae99-4458-bfd3-0ac7d7080ab2)
+- 최종 제작 다이어그램을 활용하여 Chat GPT에게 프로그램을 개선할 수 있는 방안 제시를 요청
+
+# 3. 챗GTP에게 최종명세서와 README.md 파일을 제공하여 개선 사항 요청
+## 프롬프트 엔지니어링(영어로 진행)
+- Chat GPT의 페르소나 설정
+    - 30년 경력의 베테랑 프로그래머
+- 청자 페르소나 설정
+    - 개발을 처음 접하는 자
+- 문맥 설명 후 클래스 다이어그램 제시
+- 개선할 점 요청
+
+## 챗GPT 답변
+챗GPT 답변 중 각 항목의 제목만 작성함.
+
+### 1. **문서화 강화**
+### 2. **일관된 명명 규칙**
+### 3. **클래스 설계 개선**
+### 4. **생성자 또는 세터를 사용한 의존성 주입**
+### 5. **오류 처리**
+### 6. **메서드 접근성**
+### 7. **유틸리티 클래스 강화**
+### 8. **주석과 애노테이션**
+### 9. **테스트**
+### 10. **디자인 패턴**
+### 11. **JSON 처리**
+
+# 4. 명세서와 UML 다이어그램을 바탕으로 구현
+- **SsafitApplication (리스테린)**
+- **SsafitUtil (리스테린)**
+- **MainUi (리스테린)**
+- **VideoUi (영)**
+- **VideoReviewUi (케빈)**
+- **Video (영)**
+- **VideoReview (케빈)**
+- **VideoDao (영)**
+- **VideoDaoImpl (영)**
+- **VideoReviewDao (케빈)**
+- **VideoReviewDaoImpl (케빈)**
+
+# 5. gson-2.8.8.jar 로컬 연결이 아닌 Maven Project으로 구현
+## 문제 해결 및 Maven 프로젝트 설정 가이드
+다음은 Spring Tool Suite (STS)를 사용하여 Maven 프로젝트로 변환하고 import 문제 및 코드 문제를 해결하는 단계별 가이드입니다.
+
+## Maven 프로젝트로 변환
+- **프로젝트를 Maven으로 변환:**
+    - Project Explorer에서 프로젝트를 우클릭합니다.
+    - `Configure` > `Convert to Maven Project`를 선택합니다.
+    - 마법사를 따라가면 프로젝트의 루트 디렉토리에 `pom.xml` 파일이 생성됩니다
+## Maven 의존성 추가
+- **`pom.xml` 파일에 의존성 추가:**
+    - 프로젝트의 루트 디렉토리에 생성된 `pom.xml` 파일에 Gson 의존성을 추가합니다.
+## Maven 프로젝트 업데이트
+1. **Maven 프로젝트 업데이트:**
+    - 의존성을 추가한 후, 새로운 의존성을 다운로드하려면 Maven 프로젝트를 업데이트해야 합니다.
+    - 프로젝트를 우클릭합니다.
+    - `Maven` > `Update Project...`를 선택합니다.
+    - 프로젝트가 선택된 상태에서 `OK`를 클릭합니다.
+## Imports 정리
+- import 문제가 있는 Java 파일을 엽니다(`VideoDaoImpl.java` 등).
+- `Ctrl+Shift+O`를 눌러 Imports를 정리합니다. 필요한 import 구문이 자동으로 추가됩니다.
+
+# 6. 최종 명세서와 프로젝트 구현 결과 비교해서 수정/보완 하기
+- 명세서와 구현된 패키지, 파일 내용이 전부 동일함을 확인합니다. 
