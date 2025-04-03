@@ -1,11 +1,12 @@
-![rect](https://capsule-render.vercel.app/api?type=rect&color=gradient&text=%20%20아아아%20%20&fontAlign=30&fontSize=30&textBg=true&desc=Listerinnne아니이거좀그렇다,,&descAlign=60&descAlignY=50)
+![rect](https://capsule-render.vercel.app/api?type=cylinder&color=0:358464,100:00ff9c&text=%20%20%20아아아의%20레포%20%20%20&fontAlign=30&fontSize=30&textBg=true&fontColor=fbfbfb&desc=Listerinnne&descAlign=60&descAlignY=50)
 
-
-[![My Skills](https://skillicons.dev/icons?i=git,docker,eclipse,elasticsearch,fastapi,figma,github,gitlab,gradle,html,idea,java,jenkins,linux,maven,mysql,nginx,py,r,redis,spring,ubuntu,vscode,vue,js,anaconda)](https://skillicons.dev)
+<!-- 
+[![My Skills](https://skillicons.dev/icons?i=git,docker,eclipse,elasticsearch,fastapi,figma,github,gitlab,gradle,html,idea,java,jenkins,linux,maven,mysql,nginx,py,r,redis,spring,ubuntu,vscode,vue,js,anaconda)](https://skillicons.dev) -->
 
 # 👋 Hi, I'm [이름]!
 
-## 🎯Vision & 
+## 🎯Vision & Values
+- 비전, 가치관 
 
 ## 📌 About Me
 - 간단한 자기소개 (전공, 현재 관심 분야 등)
@@ -13,30 +14,49 @@
 - 개발/기술을 시작하게 된 계기 (선택)
 ---
 
-## 🔧 Tech Stack
-
-- 사용하는 언어 / 프레임워크
-- 개발 도구 / 협업 도구
-- 공부 중인 기술
-
 ## 📂 Projects
+<!-- 
+### 🪞MMMR
+> **단어 설명**
+한 줄 설명
+#### 담당 기능
+- **담당 기능 1**
+    - 설명 1 -->
 
-### 💪📈 [Burp-Up](https://github.com/Listerinnne/Burp-Up)
-> **Spring 기반 웹 애플리케이션**  
-사용자의 운동 데이터를 기반으로 매칭 추천 기능을 제공하고, 영상 리뷰 및 찜하기 기능을 구현했습니다.
+### 📊 [NAVI](https://github.com/AEOB-NAVI)
+> **"당신의 꿈을 응원합니다. "**
+NAVI는 취업 준비생이 희망 직무에 맞는 자격증을 추천받고, 목표 자격증별 스터디룸에서 함께 공부하며 학습 시간을 관리하고 합격률까지 예측할 수 있는 자격증 추천 및 학습 지원 서비스입니다.
+#### 담당 기능
+- **추천 알고리즘 구현**
+    :코사인 유사도를 통해 사용자 기존 취득 자격증&희망 직무를 기반으로 자격증 추천
+- 
 
-- 로그인/회원가입, 운동 영상 검색 및 추천 기능 구현  
-- 리뷰, 찜, 운동 기준 필터링 기능 구현  
-- JSP 기반 프론트엔드, RESTful API 설계  
+### 💪 [Burp-Up](https://github.com/Listerinnne/Burp-Up)
+> **Spring 기반 웹 애플리케이션**
+Burp-Up은 사용자의 버피테스트 기록과 건강 정보를 활용해 부상 리스크를 줄이고 사용자의 건강 상태에 적합한 운동을 제안하는 맞춤형 피트니스 서비스입니다.
 
-### 📊🛣️ [NAVI](https://github.com/AEOB-NAVI)
-> **Python & R 기반 데이터 분석 팀 프로젝트**  
-산업별 매출 데이터 분석을 통해 코로나19 이후의 경제 트렌드를 시각화하고 인사이트 도출  
-
-- Python(Pandas, matplotlib)과 R을 이용한 데이터 전처리 및 시각화  
-- 산업별 매출 증감 요인 분석 및 보고서 작성  
+- 파일 업로드, 운동 기록 저장, 운동 영상 검색, 로그인/회원가입 기능 구현  
+- RESTful API 설계
+- 
 
 ---
+## 🔧 Tech Stack
+#### 🔠 언어 - JAVA, Python, Javascript, R
+[![My Skills](https://skillicons.dev/icons?i=java,py,r,js)](https://skillicons.dev)
+#### 🖥️ Backend - JAVA, Python, Spring boot, FastAPI, IntelliJ, Eclipse
+[![My Skills](https://skillicons.dev/icons?i=java,py,spring,fastapi,idea,eclipse)](https://skillicons.dev)
+#### 🔐 Infra - Docker, Docker-compose, Jenkins, Linux, Nginx, Ubuntu
+[![My Skills](https://skillicons.dev/icons?i=docker,jenkins,linux,nginx,ubuntu)](https://skillicons.dev)
+#### 📚 DataBase - MySQL, Redis, ElasticSearch
+[![My Skills](https://skillicons.dev/icons?i=mysql,redis,elasticsearch)](https://skillicons.dev)
+#### ✨ Frontend - Javascript, HTML, Vue, VSCode
+[![My Skills](https://skillicons.dev/icons?i=js,html,vue,vscode)](https://skillicons.dev)
+#### 🗨️ 협업 도구 - Git, GitHub, GitLab, Jira
+[![My Skills](https://skillicons.dev/icons?i=git,github,gitlab)](https://skillicons.dev)
+<!-- #### ✨ 그 외 기술 - 
+[![My Skills](https://skillicons.dev/icons?i=gradle,elasticsearch,figma,maven,anaconda)](https://skillicons.dev) -->
+
+
 
 ## 🧠 성장 여정
 
