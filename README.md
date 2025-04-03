@@ -1,4 +1,4 @@
-![rect](https://capsule-render.vercel.app/api?type=cylinder&color=0:358464,100:00ff9c&text=%20%20Huiju%20Kwon%20%20&fontAlign=30&fontSize=30&textBg=9f9f9f&fontColor=fbfbfb&desc=%23Backend%20%23Infra%20Developer&descAlign=60&descAlignY=50)
+![rect](https://capsule-render.vercel.app/api?type=cylinder&color=0:358464,100:00ff9c&text=%20%20Huiju%20Kwon%20%20&fontAlign=30&fontSize=30&textBg=true&fontColor=fbfbfb&desc=%23Backend%20%23Infra%20Developer&descAlign=80&descAlignY=50)
 
 <!-- 
 [![My Skills](https://skillicons.dev/icons?i=git,docker,eclipse,elasticsearch,fastapi,figma,github,gitlab,gradle,html,idea,java,jenkins,linux,maven,mysql,nginx,py,r,redis,spring,ubuntu,vscode,vue,js,anaconda)](https://skillicons.dev) -->
@@ -44,11 +44,7 @@ Burp-Up은 사용자의 버피테스트 기록과 건강 정보를 활용해 부
 ---
 ## 🔧 Tech Stack
 #### 🔠 언어 - JAVA, Python, Javascript, R
-| 이름   | 나이 | 직업     |
-|--------|------|----------|
-| 홍길동 | 30   | 개발자   |
-| 김철수 | 27   | 디자이너 |
-| 이영희 | 25   | 기획자   |
+
 [![My Skills](https://skillicons.dev/icons?i=java,py,r,js)](https://skillicons.dev)
 #### 🖥️ Backend - JAVA, Python, Spring boot, FastAPI, Gradle, Maven, IntelliJ, Eclipse
 [![My Skills](https://skillicons.dev/icons?i=java,py,spring,fastapi,gradle,maven,idea,eclipse)](https://skillicons.dev)
