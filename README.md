@@ -1,4 +1,4 @@
-![rect](https://capsule-render.vercel.app/api?type=cylinder&color=0:358464,100:00ff9c&text=%20%20Huiju%20Kwon%20%20&fontAlign=30&fontSize=30&textBg=true&fontColor=fbfbfb&desc=Backend%20%23Infra%20Developer&descAlign=60&descAlignY=50)
+![rect](https://capsule-render.vercel.app/api?type=cylinder&color=0:358464,100:00ff9c&text=%20%20Huiju%20Kwon%20%20&fontAlign=30&fontSize=30&textBg=true&fontColor=fbfbfb&desc=%20%20%23Backend%20%23Infra%20Developer&descAlign=60&descAlignY=50)
 
 <!-- 
 [![My Skills](https://skillicons.dev/icons?i=git,docker,eclipse,elasticsearch,fastapi,figma,github,gitlab,gradle,html,idea,java,jenkins,linux,maven,mysql,nginx,py,r,redis,spring,ubuntu,vscode,vue,js,anaconda)](https://skillicons.dev) -->
