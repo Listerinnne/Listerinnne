@@ -15,17 +15,17 @@
 ---
 
 ## 📂 Projects
-<!-- 
-### 🪞MMMR
-> **단어 설명**
-한 줄 설명
+### 🪞미미미러(MMMR)
+> **"익숙한 거울, 새로운 일상"**<br>
+*미미미러*는 집 안의 다양한 거울을 스마트 미러로 전환해 공간별 특성과 사용자 니즈에 맞춘 맞춤형 정보와 서비스를 제공하며,<br>거울 간의 연동을 통해 일상 생활을 통합적으로 지원하는 스마트 홈 시스템입니다.
 #### 담당 기능
-- **담당 기능 1**
-    - 설명 1 -->
+- **인프라 구축**
+    - 설명 1
+- 
 
 ### 📊 [NAVI](https://github.com/AEOB-NAVI)
 > **"당신의 꿈을 응원합니다. "**<br>
-NAVI는 취업 준비생이 희망 직무에 맞는 자격증을 추천받고, 목표 자격증별 스터디룸에서 함께 공부하며 학습 시간을 관리하고 합격률까지 예측할 수 있는 자격증 추천 및 학습 지원 서비스입니다.
+*NAVI*는 취업 준비생이 희망 직무에 맞는 자격증을 추천받고, 목표 자격증별 스터디룸에서 공부하며<br>학습 시간을 관리하여 합격률까지 예측할 수 있는 자격증 추천 및 학습 지원 서비스입니다.
 
 ✅ **담당 기능**
 - **추천 알고리즘 구현**<br>
@@ -33,8 +33,8 @@ NAVI는 취업 준비생이 희망 직무에 맞는 자격증을 추천받고, �
 - 
 
 ### 💪 [Burp-Up](https://github.com/Listerinnne/Burp-Up)
-> **Spring 기반 웹 애플리케이션**<br>
-Burp-Up은 사용자의 버피테스트 기록과 건강 정보를 활용해 부상 리스크를 줄이고 사용자의 건강 상태에 적합한 운동을 제안하는 맞춤형 피트니스 서비스입니다.
+> **"운동은 강도가 아니라, 나에 대한 이해에서 시작된다."**<br>
+*Burp-Up*은 사용자의 버피테스트 기록과 건강 정보를 활용해 부상 리스크를 줄이고<br>사용자의 건강 상태에 적합한 운동을 제안하는 맞춤형 피트니스 서비스입니다.
 
 ✅ **담당 기능**
 - 파일 업로드, 운동 기록 저장, 운동 영상 검색, 로그인/회원가입 기능 구현  
@@ -43,19 +43,23 @@ Burp-Up은 사용자의 버피테스트 기록과 건강 정보를 활용해 부
 
 ---
 ## 🔧 Tech Stack
-#### 🔠 언어 - JAVA, Python, Javascript, R
+#### 🔠 Languages - JAVA, Python, Javascript
+[![My Skills](https://skillicons.dev/icons?i=java,py,js)](https://skillicons.dev)
 
-[![My Skills](https://skillicons.dev/icons?i=java,py,r,js)](https://skillicons.dev)
-#### 🖥️ Backend - JAVA, Python, Spring boot, FastAPI, Gradle, Maven, IntelliJ, Eclipse
-[![My Skills](https://skillicons.dev/icons?i=java,py,spring,fastapi,gradle,maven,idea,eclipse)](https://skillicons.dev)
-#### 🔐 Infra - Docker, Docker-compose, Jenkins, Linux, Nginx, Ubuntu
-[![My Skills](https://skillicons.dev/icons?i=docker,jenkins,linux,nginx,ubuntu)](https://skillicons.dev)
-#### 📚 DataBase - MySQL, Redis, ElasticSearch
+#### 🖥️🍃 Backend - JAVA, Python, Spring boot, Spring, FastAPI
+[![My Skills](https://skillicons.dev/icons?i=java,py,spring,fastapi)](https://skillicons.dev)
+
+#### 🏠 Infra - Docker, Docker Compose, Jenkins, Linux, Nginx
+[![My Skills](https://skillicons.dev/icons?i=docker,jenkins,linux,nginx)](https://skillicons.dev)
+
+#### 🗃️ DataBase - MySQL, Redis, ElasticSearch
 [![My Skills](https://skillicons.dev/icons?i=mysql,redis,elasticsearch)](https://skillicons.dev)
-#### ✨ Frontend - Javascript, HTML, Vue, VSCode
-[![My Skills](https://skillicons.dev/icons?i=js,html,vue,vscode)](https://skillicons.dev)
-#### 🗨️ 협업 도구 - Git, GitHub, GitLab, Jira
-[![My Skills](https://skillicons.dev/icons?i=git,github,gitlab)](https://skillicons.dev)
+
+#### ✨ Frontend - Javascript, HTML, Vue, CSS
+[![My Skills](https://skillicons.dev/icons?i=js,html,vue,css)](https://skillicons.dev)
+
+#### 🔧 Tools - Git, GitHub, GitLab, Notion, IntelliJ, Eclipse, Jira
+[![My Skills](https://skillicons.dev/icons?i=git,github,gitlab,notion,idea,eclipse)](https://skillicons.dev)
 
 ## 🧠 성장 여정
 
