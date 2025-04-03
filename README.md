@@ -75,7 +75,7 @@
 #### ✨ Frontend - Javascript, HTML, Vue, CSS
 [![My Skills](https://skillicons.dev/icons?i=js,html,vue,css)](https://skillicons.dev)
 
-#### 🔧 Tools - Git, GitHub, GitLab, Notion, IntelliJ, Eclipse, Jira
+#### ⚙️ Tools - Git, GitHub, GitLab, Notion, IntelliJ, Eclipse, Jira
 [![My Skills](https://skillicons.dev/icons?i=git,github,gitlab,notion,idea,eclipse)](https://skillicons.dev)
 
 ---
