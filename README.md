@@ -17,11 +17,10 @@
 
 ---
 ## 📂 Projects
-### 트리버스(Triverse)
+### 🌌[트리버스(Triverse)](https://github.com/Listerinnne/Triverse)
 > **"한 사람을 위한 우주"**<br>
 
-### 🪞미미미러(MMMR)
-#### [**📱App**](https://j12a703.p.ssafy.io/) | [**🪞Mirror**](https://j12a703.p.ssafy.io/mirror/)
+### 🪞[미미미러(MMMR)](https://github.com/Listerinnne/MMMR)
 > **"익숙한 거울, 새로운 일상"**<br>
 *미미미러*는 집 안의 다양한 거울을 스마트 미러로 전환해 <br>공간별 특성과 사용자 니즈에 맞춘 맞춤형 정보와 서비스를 제공하며,<br>거울 간의 연동을 통해 일상 생활을 통합적으로 지원하는 스마트 홈 시스템입니다.
 
