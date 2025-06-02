@@ -38,7 +38,7 @@
 - **Youtube Search API** - 동영상 검색 기능 구현 -->
 
 
-### 📊 [NAVI](https://github.com/AEOB-NAVI)
+### 📊 [나비(NAVI)](https://github.com/AEOB-NAVI)
 > **"당신의 꿈을 응원합니다. "**<br>
 *NAVI*는 취업 준비생이 희망 직무에 맞는 자격증을 추천받고, 목표 자격증별 스터디룸에서 공부하며<br>학습 시간을 관리하여 합격률까지 예측할 수 있는 자격증 추천 및 학습 지원 서비스입니다.
 
@@ -50,7 +50,7 @@
 - **CountVectorizer, cosine-similarity** - 추천 알고리즘 구현
 - **JPA** - 자격증 관련 기능 구현 -->
 
-### 💪 [Burp-Up](https://github.com/Listerinnne/Burp-Up)
+### 💪 [버프업(Burp-Up)](https://github.com/Listerinnne/Burp-Up)
 > **"운동은 강도가 아니라, 나에 대한 이해에서 시작된다."**<br>
 *Burp-Up*은 사용자의 버피테스트 기록과 건강 정보를 활용해 부상 리스크를 줄이고<br>사용자의 건강 상태에 적합한 운동을 제안하는 맞춤형 피트니스 서비스입니다.
 
