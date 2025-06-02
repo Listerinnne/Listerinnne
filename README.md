@@ -17,7 +17,7 @@
 
 ---
 ## 📂 Projects
-### 🌌[트리버스(Triverse)](https://github.com/Listerinnne/Triverse)
+### 🪐[트리버스(Triverse)](https://github.com/Listerinnne/Triverse)
 > **"한 사람을 위한 우주"**<br>
 
 ### 🪞[미미미러(MMMR)](https://github.com/Listerinnne/MMMR)
@@ -37,7 +37,7 @@
 - **Youtube Search API** - 동영상 검색 기능 구현 -->
 
 
-### 📊 [나비(NAVI)](https://github.com/AEOB-NAVI)
+### 🛣️ [나비(NAVI)](https://github.com/AEOB-NAVI)
 > **"당신의 꿈을 응원합니다. "**<br>
 *NAVI*는 취업 준비생이 희망 직무에 맞는 자격증을 추천받고, 목표 자격증별 스터디룸에서 공부하며<br>학습 시간을 관리하여 합격률까지 예측할 수 있는 자격증 추천 및 학습 지원 서비스입니다.
 
