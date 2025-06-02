@@ -17,6 +17,9 @@
 
 ---
 ## 📂 Projects
+### 트리버스(Triverse)
+> **"한 사람을 위한 우주"**<br>
+
 ### 🪞미미미러(MMMR)
 #### [**📱App**](https://j12a703.p.ssafy.io/) | [**🪞Mirror**](https://j12a703.p.ssafy.io/mirror/)
 > **"익숙한 거울, 새로운 일상"**<br>
