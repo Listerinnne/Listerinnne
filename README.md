@@ -63,7 +63,7 @@
 ---
 ## 🔧 Tech Stack
 #### 🔠 Languages - JAVA, Python, Javascript
-[![My Skills](https://skillicons.dev/icons?i=java,py,js)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=java,py,ts)](https://skillicons.dev)
 
 #### 🧩 Backend - JAVA, Python, Spring boot, Spring, FastAPI
 [![My Skills](https://skillicons.dev/icons?i=java,py,spring,fastapi)](https://skillicons.dev)
